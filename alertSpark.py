@@ -23,7 +23,7 @@ while True:
                 allVlans.append(vlan['id'])
             else:
                 allVlans.append(vlan['id'])
-                api.messages.create(roomId='Y2lzY29zcGFyazovL3VzL1JPT00vMDdhZjI4MzAtYzhhOC0xMWU3LTk3YzItYWI2NjBmOGYwMjQw',
+                api.messages.create(roomId=os.environ['meraki-roomid'],
                                     text='New VLAN added: ' + str(vlan['id']))
     firstRun = False
     time.sleep(5) #Run check every 5 seconds
