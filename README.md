@@ -11,6 +11,4 @@ meraki-network - ID of your Meraki Network
 
 spark-token - API token from developer.ciscospark.com
 
-
-Additionally, you must create a room in Spark and get the ID and place it in the room ID
-
+spark-roomid - ID of the room you want to send a messsage to.
