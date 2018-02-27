@@ -12,3 +12,5 @@ meraki-network - ID of your Meraki Network
 spark-token - API token from developer.ciscospark.com
 
 spark-roomid - ID of the room you want to send a messsage to.
+
+### Run: alertSpark.py ###
